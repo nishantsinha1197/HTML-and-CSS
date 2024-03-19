@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div::first-letter{
+            color: red;
+            font-size: 50px;
+        }
+        p::first-line{
+            background-color: rgb(296,210,65);
+        }
+        p::selection{
+            background-color: aqua;
+            color:red
+        }
+        div::before{
+            content: 'JSP';
+            background-color: blue;
+            font-size: 36px;
+        }
+        div::after{
+            content:"Welcome to MERN";
+            background-color: green;
+            font-size: 36px;
+        }
+        li::marker{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>Hello World</div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, numquam praesentium tempora vero voluptatem sit ullam consectetur veritatis harum pariatur. Quis atque accusamus esse excepturi illo totam cum officia laborum.</p>
+    <ul>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ul>
+</body>
+</html>

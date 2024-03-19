@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            color: white;
+            background-color: blueviolet;
+        }
+        h1{
+            color: blue;
+            background-color: green;
+        }
+        #xyz{
+            background-color: cornflowerblue;
+            color: chocolate;
+        }
+        .x{
+            color: red;
+        }
+        .y{
+            background-color: blue;
+        }
+        .z{
+            height:100px
+        }
+        /* Universal Selector */
+        *{
+            color: burlywood;
+        }
+        #a,#b,.y{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <!-- Tag Name Selector -->
+    <h1>Hello World</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae quo atque a dolorem optio! Aspernatur cumque, porro blanditiis numquam tempora quibusdam optio? Officiis commodi vero deleniti ullam labore, consequatur possimus.</p>
+
+    <!-- Id Selector -->
+    <p id="xyz">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quas quo aliquid nobis praesentium, earum quia iusto accusantium cumque beatae neque laudantium omnis quisquam dicta perferendis quidem rerum veritatis odio.</p>
+    <p>Hello</p>
+    <h1 id="xyz">GOOD MORNING</h1>
+
+    <!-- Class Selector -->
+    <p class="x y z">CLASS SELECTOR</p>
+    <h2 class="y z">Good Morning</h2>
+
+    <!-- Group Selector -->
+    <p id="a">Group Selector</p>
+    <p class="x z">HELLO</p>
+    <p id="b">WORLD</p>
+    <h1 class="y z">GOOD MORNING</h1>
+</body>
+</html>

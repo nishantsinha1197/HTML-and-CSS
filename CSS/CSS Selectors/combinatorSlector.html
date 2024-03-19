@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Descendant Selector */
+        .main h1{
+            background-color: brown;
+        }
+        /* Child Selector */
+        .main>p{
+            background-color: blue;
+        }
+        /* Adjacent Sibling Selector */
+        h2 + span{
+            background-color: burlywood;
+        }
+        /* General Sibling Selector */
+        h2 ~ p{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>A</h1>
+        <h1>B</h1>
+        <p>Hello</p>
+        <p>World</p>
+        <h2>Heading2</h2>
+        <span>Span</span>
+        <span>Span</span>
+        <p>Para1</p>
+        <p>Para2</p>
+        <div class="child">
+            <h1>c</h1>
+            <p>d</p>
+        </div>
+        <p>e</p>
+    </div>
+</body>
+</html>
